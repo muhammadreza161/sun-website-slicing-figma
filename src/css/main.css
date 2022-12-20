@@ -1,0 +1,128 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Hero */
+.hero {
+    background-image: url('../assets/background.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 58vmax;
+    width: 100;
+    margin-top: 60px;
+    /* margin-left: 25%; */
+}
+
+.hero .costum-section {
+    margin-top: 5em;
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+.hero .contact-btn {
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 1em 3em;
+    margin-top: 1em;
+}
+
+/* Navbar */
+.custom-nav {
+    height: 60px;
+}
+
+.custom-nav .navbar-brand {
+    color: #FFCE07;
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 10%;
+
+}
+
+.custom-nav .nav-link {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    padding-right: 13%;
+
+}
+
+.custom-nav .contact-btn {
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #FFCE07;
+    padding: 1em 3em;
+
+}
+
+/*  Card */
+
+.cost {
+    margin-top: -5%;
+}
+
+.costum-card {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20%;
+}
+
+.costum-card .card {
+    border-color: #FFCE07;
+}
+
+.costum-card .card-title {
+    color: #FFCE07;
+    font-size: small;
+}
+
+.costum-card .card-text {
+    color: black;
+    font-size: 10px;
+}
+
+/* Gallery */
+.galery {
+    padding-left: 12%;
+    padding-right: 5%;
+}
+
+.galery img {
+    height: 50px;
+}
+
+/* Achivement */
+
+.achivement {
+    background-color: rgb(36, 36, 36);
+    height: 200px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+.achivement h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFCE07;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.portfolio {
+    height: 200px;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.portfolio .card-title {
+    color: #FFCE07;
+    font-size: 15px;
+    font-weight: bold;
+}
+.portfolio .card-text {
+    font-size: 10px;
+}
